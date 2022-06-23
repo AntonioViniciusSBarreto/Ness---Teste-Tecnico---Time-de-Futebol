@@ -1,0 +1,10 @@
+<h1>Lista de Jogadores:</h1>
+{{#each posts}}
+    <hr>
+    Nome:{{Nome}}<br>
+    Idade: {{Idade}} <br>
+    Posicao: {{Posicao}} <br>
+    <a href="/deletar/{{id}}"><button>Deletar</button></a>
+    <a href="/modificar/{{id}}"><button>Modficar</button></a>
+    <hr>
+{{/each}}
